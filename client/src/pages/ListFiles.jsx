@@ -169,8 +169,6 @@ const ListFiles = () => {
       );
 
       const code = res.data.code;
-      console.log("🔁 Code:", code);
-
       // Show in preview
       setGeneratedCode(code);
 
